@@ -6,6 +6,10 @@ import { CircularProgress } from '@mui/material'
 const Addtocart = () => {
   const selector = useSelector(state => state.cart.cartItem)
 
+  function deleteBtn(){
+    alert('this function is comming soon')
+  }
+
   return (
     <>
       <div className='w-[50px] h-[50px] flex items-center justify-center bg-pink-600 rounded-[50px] fixed text-white hover:bg-pink-500 bottom-10 right-10 hover:shadow-lg cursor-pointer' >
